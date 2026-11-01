@@ -1,0 +1,38 @@
+{
+  "name": "ai-battle-arena",
+  "version": "1.0.0",
+  "description": "A full-stack application where users can pit two AI models against each other. Submit a single problem statement, watch both models generate responses using LangGraph, and let a third independent judge model evaluate and declare the winning response!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ronitpatel01/AI-Battle-Arena.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ronitpatel01/AI-Battle-Arena/issues"
+  },
+  "homepage": "https://github.com/Ronitpatel01/AI-Battle-Arena#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@langchain/cohere": "^1.1.0",
+    "@langchain/core": "^1.3.1",
+    "@langchain/google": "^0.2.12",
+    "@langchain/google-genai": "^2.3.4",
+    "@langchain/langgraph": "^1.6.0",
+    "@types/node": "^26.6.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "langchain": "^1.6.0"
+  }
+}
